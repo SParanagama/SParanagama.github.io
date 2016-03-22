@@ -14,8 +14,8 @@ description: |
     He shares his thoughts on topics that he likes: CS, Math and Machine Learning.
     Sagara is nice.
     Be like Sagara.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://sparanagama.github.io" # the base hostname & protocol for your site
+baseurl: # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
 paginate:            5
 twitter_username: SParanagama
 github_username:  SParanagama
@@ -33,10 +33,13 @@ version:             1.0.0
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+# relative_permalinks: true
 
 
 # Build settings
 markdown: kramdown
 kramdown:
   math_engine: mathjax
+
+# Gems
+gems: [jekyll-paginate]
