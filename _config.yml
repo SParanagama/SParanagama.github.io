@@ -7,13 +7,34 @@
 
 # Site settings
 title: Sagara Paranagama
-email: sagara89 *at* gmail
-description: > # this means to ignore newlines until "baseurl:"
-  Blogging on Computer Science, Math and Machine Learning
+tagline: 'Math, CS & ML'
+description: |
+    This is Sagara Paranagama.
+    He is a Software Engineer.
+    He shares his thoughts on topics that he likes: CS, Math and Machine Learning.
+    Sagara is nice.
+    Be like Sagara.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sparanagama.github.io" # the base hostname & protocol for your site
+paginate:            5
 twitter_username: SParanagama
 github_username:  SParanagama
+
+# About/contact
+author:
+  name:              Sagara Paranagama
+  url:               https://twitter.com/SParanagama
+  email:             sagara89 *at* gmail
+
+# Custom vars
+version:             1.0.0
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
 
 # Build settings
 markdown: kramdown
