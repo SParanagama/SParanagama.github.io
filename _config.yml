@@ -1,6 +1,16 @@
 # Site wide configuration
 title: Sagara Paranagama
 locale:           en_US
+email: sagara89 *at* gmail
+description: > # this means to ignore newlines until "baseurl:"
+  This is Sagara Paranagama. He is a Software Engineer.
+  He shares his thoughts on topics that he likes: CS, Math and Machine Learning.
+  Sagara is nice.
+  Be like Sagara.
+baseurl: "" # the subpath of your site, e.g. /blog
+url:  # the base hostname & protocol for your site
+twitter_username: SParanagama
+github_username:  SParanagama
 
 # Jekyll configuration
 
@@ -39,26 +49,21 @@ titlecase: true
 
 # Site owner
 owner:
-  name: Sagara Paranagama
+  name: Your Name
   avatar: bio-photo.jpg
-  bio: |
-    This is Sagara Paranagama.
-    He is a Software Engineer.
-    He shares his thoughts on topics that he likes: CS, Math and Machine Learning.
-    Sagara is nice.
-    Be like Sagara.
-  email: sagara89 *at* gmail
+  bio: "Describe your self."
+  email:
   disqus-shortname:
-  twitter: SParanagama
-  facebook: sagara.paranagama
+  twitter: #username
+  facebook: #username
   google:
-    plus:
+    plus: #username
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: SParanagama
+  github: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   xing: #username
