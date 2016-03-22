@@ -15,7 +15,7 @@ description: |
     Sagara is nice.
     Be like Sagara.
 baseurl: # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: "http://sparanagama.github.io" # the base hostname & protocol for your site
 paginate:            5
 twitter_username: SParanagama
 github_username:  SParanagama
